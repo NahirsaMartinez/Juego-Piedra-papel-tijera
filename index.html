@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra,Papel,Tijera</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div>
+    <img src="https://w7.pngwing.com/pngs/422/99/png-transparent-rock-paper-scissors-computer-icons-scissors-game-white-face-thumbnail.png" alt="" id="img-jugador">
+    <h2>Jugador 1</h2>
+    <select name="" id="opcion-juego" onchange="piedraPapelTijera()">    
+        <option value="piedra">Piedra</option>
+        <option value="papel">Papel</option>
+        <option value="tijera">Tijera</option>
+    </select>
+    <div>
+        <img src="https://w7.pngwing.com/pngs/422/99/png-transparent-rock-paper-scissors-computer-icons-scissors-game-white-face-thumbnail.png" alt="" id="img-maquina">
+        <h2>Maquina</h2>
+    </div>
+
+    <h1 id="resultado-juego"></h1>
+</div>
+<script src="algoritmo.js"></script>
+</body>
+</html>
